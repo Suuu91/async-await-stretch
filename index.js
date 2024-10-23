@@ -6,7 +6,7 @@ const getArtists = async () => {
   })
 
   const ol = document.querySelector(`ol`)
-  ol.innerHTML = artistsName.join()
+  ol.innerHTML = artistsName.join(``)
 }
 
 getArtists()
